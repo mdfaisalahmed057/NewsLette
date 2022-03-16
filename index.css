@@ -14,7 +14,7 @@ h2 {
     width: fit-content;
   }
   body{
-    background-color: #212426;
+    background-color: black;
     font-family: var(--font-roboto);
   }
   .header{
@@ -26,3 +26,44 @@ h2 {
         align-items: center;
         flex-direction: column;
       }
+/* .cards-container{
+  display: grid;
+  gap: 40px;
+  /* grid-template-rows: repeat(3,1fr); */
+  /* grid-template-columns: repeat(4,2fr);/*thsi for the cards */
+  /* background: #11121A; */ 
+/* }
+.image {       
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image img { */
+  /* width: 50px; 
+  height: 50px;
+  border-radius: 10px;
+   
+} */ 
+
+.column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*    
+this is for the where to start the cards left or right: ; */
+    float: left;
+ 
+margin:5px 12px;
+max-width: 1250px;
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 20px;
+  box-sizing: border-box;
+  background:rgb(7, 7, 7);
+  box-shadow: 14px 14px 20px rgb(14, 13, 13),-14px -14px 20px rgb(17, 17, 17);
+}
+.row{
+ margin: -0.5px;
+}
