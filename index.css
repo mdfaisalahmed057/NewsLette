@@ -1,0 +1,28 @@
+h2 {
+    font-size: 3rem;
+    letter-spacing: 0.9px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgb(206, 137, 81) 0%,
+      rgba(249, 211, 180, 0) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+  }
+  body{
+    background-color: #212426;
+    font-family: var(--font-roboto);
+  }
+  .header{
+    
+        padding: 1rem;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
