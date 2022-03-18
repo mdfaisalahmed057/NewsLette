@@ -10,7 +10,7 @@ function getItems(){
                 description:doc.data().description
 
             });
-            console.log(item)
+            // console.log(item)
             
         });
         generateItems(item)
