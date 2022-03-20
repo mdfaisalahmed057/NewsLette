@@ -106,6 +106,9 @@ body{
 
 
 /* this is for the popup message  */
+
+
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -116,10 +119,10 @@ body{
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
+  border: 1px solid   rgb(19, 136, 182);;
   border-radius: 10px;
   z-index: 10;
-  background-color: white;
+  background-color: rgb(22, 22, 22);;
   width: 500px;
   max-width: 80%;
 }
@@ -133,7 +136,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(48, 45, 45);
 }
 
 .modal-header .title {

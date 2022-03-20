@@ -21,26 +21,31 @@
   <div class="header">
     <button data-modal-target="#modal" style="  background: rgb(22, 22, 22);
  box-shadow: 14px 14px 20px rgb(29, 28, 28),-14px -14px 20px rgb(17, 17, 17);
- color: antiquewhite; border-radius: 5px; font-weight: bold; ">Subscribe</button>
+ color: antiquewhite; border-radius: 5px; font-weight: bold;padding: 0.5rem;  ">Subscribe</button>
     <!--this id is refering the modal class-->
   </div>
   <div class="modal" id="modal">
     <div class="modal-header">
-      <div class="title">Example Modal</div>
-      <button data-close-button class="close-button">&times;</button>
+      <div class="title" style="color: aliceblue;">Join For Free</div>
+      <!-- <button data-close-button class="close-button" style="color: aliceblue;">&times;</button> -->
       <!--this is for  the close button-->
     </div>
 
     <!--=-----------------------------------------------this is for the email------------------------------------------------------->
     <div class="modal-body" >
       <form id="SignForm">
-        <input placeholder="Enter Your Email" id="Sign-Email" required type="email" style="border-radius: 5px;
+        <input placeholder="Enter Your Email" id="Sign-Email" required type="email"
+         style=" border-radius: 5px; background-color: black;
     height: 30px;  border-color: rgb(19, 136, 182);">
      <input placeholder="Password" id="Sign-Password" required type="password" style="border-radius: 5px;
-     height: 30px;  border-color: rgb(19, 136, 182);">
+     height: 30px; background-color: black;  border-color: rgb(19, 136, 182); color: aliceblue;">
 
-        <button style="background: rgb(19, 136, 182);
-    width: 80px; height: 30px; border-radius: 10px; font-weight: bold;">Email</button>
+        <!-- <button style="color: aliceblue;  border-color: rgb(19, 136, 182);
+    width: 80px; height: 30px; border-radius: 10px; font-weight: bold; 
+    background-color: black; cursor: pointer;">Email</button> -->
+    <button data-close-button class="close-button" style="color: aliceblue;  border-color: rgb(19, 136, 182);
+    width: 80px; height: 30px; border-radius: 10px; font-weight: bold; 
+    background-color: black; cursor: pointer;" >Join Now</button>
     </form>
     </div>
     

@@ -1,6 +1,7 @@
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
+const email=document.getElementById('data-close-button')
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -8,6 +9,12 @@ openModalButtons.forEach(button => {
     openModal(modal)
   })
 })
+// email.forEach(button=>{
+//   button.addEventListener('click',()=>{
+//     const modal = document.querySelector(button.dataset.modalTarget)
+//     openModal(modal)
+//   })
+// })
 
 overlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.modal.active')
